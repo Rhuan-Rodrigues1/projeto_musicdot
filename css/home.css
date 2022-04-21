@@ -29,6 +29,19 @@
      padding: 1.86em 1.42em;
 }
 
+.rodape {
+     text-align: center;
+}
+
+.rodape__logo {
+     width: 11.25em;
+}
+
+h2, .rodape__title {
+     font-weight: bold;
+     font-size: 1.45em;
+}
+
 @media (min-width: 640px) {
  .cabeçalho {
       display: flex;
@@ -58,5 +71,5 @@
      .cabeçalho {
           padding-left: calc((100% - 960px) / 2);
           padding-right: calc((100% - 960px) / 2);
-     }
+	}
 }

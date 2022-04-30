@@ -35,6 +35,25 @@
 
 .rodape__logo {
      width: 11.25em;
+     margin-bottom: 1.25rem;
+}
+
+.rodape__endereco {
+     margin-bottom: 1.25rem;
+}
+
+.rodape__endereco-info {
+     line-height: 1.70rem;
+}
+
+.rodape__title {
+     margin: 1.25rem 0;
+     color: #2e4255;
+     font-weight: bold;
+}
+
+.rodape__secao {
+     line-height: 1.60rem;
 }
 
 h2, .rodape__title {

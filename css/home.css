@@ -61,6 +61,35 @@ h2, .rodape__title {
      font-size: 1.45em;
 }
 
+.rodape__form {
+     display: flex;
+     width: 350px;
+     margin-left: auto;
+     margin-right: auto;
+     overflow: hidden;
+     box-sizing: border-box;
+     border-radius: 7px;
+     border: 2px solid #e93d50;
+}
+
+.rodape__form-email {
+     padding: .6rem .4rem;
+     flex-grow: 1;
+     border: none;
+}
+
+.rodape__form-botao {
+     flex-grow: 1;
+      border: none;
+      text-transform: uppercase;
+      font-weight: 600;
+      background-color: #e93d50;
+      color: #fff;
+      width: 10%;
+}
+
+
+
 @media (min-width: 640px) {
  .cabeçalho {
       display: flex;
